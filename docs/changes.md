@@ -628,7 +628,7 @@
 - [Magic Mount] Use symlinks for mirroring back if possible, reduce bind mounts for adding files
 - [Magisk Hide] Check init namespace, zygote namespace to prevent Magic Mount breakage (a.k.a root loss)
 - [Magisk Hide] Send SIGSTOP to pause target process ASAP to prevent crashing if unmounting too late
-- [Magisk Hide] Hiding should work under any conditions, including adding libs and /system root etc.
+- [Magisk Hide] Hiding shouldwork under any conditions, including adding libs and /system root etc.
 - [phh] Root the device if no proper root detected
 - [phh] Move `/sbin` to `/sbin_orig` and link back, fix Samsung no-suid issue
 - [scripts] Improve SuperSU integration, now uses sukernel to patch ramdisk, support SuperSU built in ramdisk restore
